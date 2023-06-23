@@ -3,7 +3,7 @@ from node2vec import Node2Vec
 
 if __name__ == "__main__":
     # Step 1: Load the GraphML file
-    graph = nx.read_graphml('D:\DATA-OSM-Dinasty\DATASET.graphml')
+    graph = nx.read_graphml('./DATASET.graphml')
 
     # Step 2: Preprocess the graph (if needed)
     # ...
